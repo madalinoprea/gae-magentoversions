@@ -5,6 +5,9 @@ api_version: 1
 threadsafe: true
 
 handlers: 
+ - url: /index.html
+   script: main.app
  - url: /
    static_dir: magento
+   expiration: 30d
 
